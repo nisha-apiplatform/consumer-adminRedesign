@@ -1,0 +1,281 @@
+.container {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.row {
+  display: flex;
+}
+
+.toolbar {
+  border: 0;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #dbdbdb;
+  display: inline-block;
+  margin: 20px 10px 20px 0px;
+  height: 69px;
+}
+
+.toolbar-text {
+  font-size: 1.75rem !important;
+  font-weight: 600 !important;
+  position: relative;
+  top: -7px;
+}
+
+.add-button {
+  height: 35px;
+  float: right;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  border: 0;
+  display: flex;
+  background: #3d3d3e;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 22px;
+}
+
+.add-circle-icon {
+  font-size: 20px;
+  text-align: center;
+  padding-right: 2px;
+  position: relative;
+  top: 1px;
+}
+button {
+  width: 212px;
+}
+
+mat-card {
+  background: #f2f2f2;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  padding-right: 20px;
+}
+
+.verify-icon {
+  color: #45bc31;
+  font-size: 16px;
+  position: relative;
+  vertical-align: middle;
+  top: 4px;
+  padding-left: 3px;
+}
+
+.delete-icon {
+  color: #ff2e2e;
+  font-size: 22px;
+  position: relative;
+  vertical-align: middle;
+  top: 4px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.search-box {
+  background: #d9d9d9;
+  border-radius: 8px;
+  border: 1px solid #a2a2a2;
+  margin: 35px 0px 12px 12px;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.85);
+  height: 43px;
+  width: 95%;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+div i {
+  font-size: 20px;
+  margin-left: -30px;
+  position: relative;
+  vertical-align: middle;
+  top: 1px;
+}
+
+input[type="search"] {
+  padding: 10px;
+}
+
+.username-title {
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-size: 0.9rem;
+}
+.username-text {
+  font-weight: 400;
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+.username {
+  border-right: 1px solid #e0e0e0;
+  height: 100%;
+}
+mat-list-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e0e0e0;
+  width: 100%;
+}
+
+.create-button {
+  height: 35px;
+  float: right;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  border: 0;
+  display: flex;
+  background: #3d3d3e;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tab-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  top: 25px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.user-env-title {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.div-user-env {
+  padding: 22px 0 20px 20px;
+}
+
+.create-env-button {
+  max-width: 80%;
+  height: 35px;
+  min-width: 20%;
+  float: right;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  border: 0;
+  display: flex;
+  background: #3d3d3e;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 22px;
+  margin-bottom: 30px;
+}
+table {
+  max-width: 100%;
+
+  min-width: 60%;
+  width: 100%;
+}
+
+th {
+  background-color: #d9d9d9 !important;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+::ng-deep .mdc-tab--active {
+  color: #fff !important;
+  background-color: #2a3f54 !important;
+  border-radius: 10px !important;
+  margin: 2px !important;
+}
+
+/* ink bar */
+::ng-deep .mat-ink-bar {
+  background-color: var(--primary-color, #1f89ce) !important;
+}
+ngx-smart-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background-color: white;
+  padding: 20px;
+}
+::ng-deep .mdc-tab-indicator-active {
+  color: #45bc31 !important;
+  background-color: #45bc31 !important;
+}
+.maxed {
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+  height: calc(100vh - 150px);
+}
+.scroll-container {
+  height: 500px;
+  overflow-y: auto;
+}
+
+::ng-deep .mat-mdc-dialog-container {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  height: 65% !important;
+  width: 60% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.table-container {
+  max-height: 450px;
+  min-height: 250px;
+  overflow: auto;
+  margin-top: 50px;
+}
+
+.grid-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.mat-grid-tile {
+  border-radius: 30px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  background-color: #dbdbdb;
+  color: black;
+  text-align: center;
+}
+
+.mat-grid-tile.mat-grid-tile-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mat-grid-list {
+  margin: 20px;
+}
+
+.add-group {
+  border: 1px dotted !important;
+  cursor: pointer;
+}
+
+.grid-tile {
+  position: relative;
+}
+
+.delete-grid-icon {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 15px;
+}
